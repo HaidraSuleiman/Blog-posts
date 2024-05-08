@@ -1,5 +1,5 @@
 import { revalidatePath } from "next/cache";
-import Hero from "../components/home-page/Hero";
+import Hero from "../components/home-page/hero";
 import FeaturedPosts from "../components/home-page/featured-posts";
 import { getFeaturedPosts } from "../lib/posts-util";
 import Head from "next/head";
